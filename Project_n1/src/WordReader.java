@@ -24,7 +24,7 @@ public class WordReader {
     }
 
     public List<String> getWords() {
-        return new ArrayList<>(words); // защищаем внутренний список
+        return new ArrayList<>(words);
     }
 
     public boolean isEmpty() {

@@ -57,7 +57,7 @@ public class HangmanGame {
                 continue;
             }
 
-            // Проверка, была ли буква уже отгадана (опционально)
+
             if (isAlreadyGuessed(guess)) {
                 System.out.println("Вы уже пробовали эту букву.");
                 continue;

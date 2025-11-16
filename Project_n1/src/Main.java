@@ -7,7 +7,7 @@ public class Main {
         String filename = "C:\\Users\\Ильнур\\Documents\\Виселица\\Viselica\\Project_n1\\words.txt";
 
         if (!reader.loadWordsFromFile(filename)) {
-            System.out.println("Ошибка при загрузке файла слов. Игра не может начаться.");
+            System.out.println("Ошибка при загрузке файла. Игра не может начаться.");
             return;
         }
 
