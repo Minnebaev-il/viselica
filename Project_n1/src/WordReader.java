@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class WordReader {
     private List<String> words = new ArrayList<>();
 
-    public boolean loadWordsFromFile(String filename) {
+    public boolean loadWordFromFile(String filename) {
         try (Scanner scanner = new Scanner(new File(filename))) {
             words.clear();
             while (scanner.hasNext()) {
